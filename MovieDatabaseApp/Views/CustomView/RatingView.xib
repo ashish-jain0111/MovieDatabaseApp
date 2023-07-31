@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RatingView" customModule="MovieDatabaseApp" customModuleProvider="target">
+            <connections>
+                <outlet property="ratingLabel" destination="QI5-pB-Bb4" id="vpT-Yp-TF8"/>
+                <outlet property="ratingSourceTextField" destination="qci-cY-onx" id="Clh-e0-dUi"/>
+                <outlet property="titleLabel" destination="vZl-N8-Klo" id="gda-sx-xNw"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="442" height="121"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rating" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vZl-N8-Klo">
+                    <rect key="frame" x="0.0" y="47" width="53" height="21"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qci-cY-onx">
+                    <rect key="frame" x="0.0" y="78" width="265.33333333333331" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QI5-pB-Bb4">
+                    <rect key="frame" x="270.33333333333331" y="84.666666666666671" width="42" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="QI5-pB-Bb4" secondAttribute="trailing" id="4Yy-WJ-Ks9"/>
+                <constraint firstItem="vZl-N8-Klo" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="89S-bh-ASg"/>
+                <constraint firstItem="vZl-N8-Klo" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="9zC-8V-25o"/>
+                <constraint firstItem="qci-cY-onx" firstAttribute="width" secondItem="vUN-kp-3ea" secondAttribute="width" multiplier="0.6" id="L4q-p3-ADH"/>
+                <constraint firstItem="qci-cY-onx" firstAttribute="leading" secondItem="vZl-N8-Klo" secondAttribute="leading" id="Uba-Xf-zwz"/>
+                <constraint firstItem="QI5-pB-Bb4" firstAttribute="leading" secondItem="qci-cY-onx" secondAttribute="trailing" constant="5" id="Wra-9D-HKd"/>
+                <constraint firstItem="qci-cY-onx" firstAttribute="top" secondItem="vZl-N8-Klo" secondAttribute="bottom" constant="10" id="ggj-vE-Wif"/>
+                <constraint firstItem="QI5-pB-Bb4" firstAttribute="centerY" secondItem="qci-cY-onx" secondAttribute="centerY" id="hLF-0C-5R5"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="106.15384615384615" y="30.568720379146917"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

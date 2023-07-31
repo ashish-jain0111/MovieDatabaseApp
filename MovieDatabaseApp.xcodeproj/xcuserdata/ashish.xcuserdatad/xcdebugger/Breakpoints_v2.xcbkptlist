@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "15925D31-3A6D-4228-B8ED-E78BCB52B4E3"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4FF9C9E3-0AB6-4904-A61D-DF0A18247DBE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MovieDatabaseApp/Services/JsonReaderService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "readJsonFile()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4FF9C9E3-0AB6-4904-A61D-DF0A18247DBE - f3ad6e8dc9363965"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MovieDatabaseApp.JsonReaderService.readJsonFile() throws -&gt; Swift.Array&lt;MovieDatabaseApp.MovieModel&gt;"
+                  moduleName = "MovieDatabaseApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ashish/Documents/Xcode/MovieDatabaseApp/MovieDatabaseApp/Services/JsonReaderService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "980">
+               </Location>
+               <Location
+                  uuid = "4FF9C9E3-0AB6-4904-A61D-DF0A18247DBE - f3ad6e8dc9363965"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MovieDatabaseApp.JsonReaderService.readJsonFile() throws -&gt; Swift.Array&lt;MovieDatabaseApp.MovieModel&gt;"
+                  moduleName = "MovieDatabaseApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ashish/Documents/Xcode/MovieDatabaseApp/MovieDatabaseApp/Services/JsonReaderService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "1004">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
